@@ -218,6 +218,15 @@ nav ul > li a:hover{
     color: #000000;
 }
 
+.last-div{
+
+}
+
+
+.first-flex{
+    display: flex;
+}
+
 footer{
     background-color: #252e36;
     padding: 20px;

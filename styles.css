@@ -218,14 +218,116 @@ nav ul > li a:hover{
     color: #000000;
 }
 
-.last-div{
 
+
+
+
+
+
+
+
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0px 2px 2px 4px #d2d2d2;
 }
 
+.overflow{
+    width: 800px;
+    max-height: 400px;
+    overflow-y: scroll;
+    box-shadow: 0px 8px 2px 4px #d2d2d2;
+    padding: 10px;
+}
 
 .first-flex{
     display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
+
+.first-flex img{
+    max-width: 150px;
+}
+
+.last-flex-div,.last-flex-2div h2{
+    text-align: center;
+}
+
+.flex-div2{
+    width: 650px;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 5px;
+    box-shadow: 0px 8px 2px 4px #d2d2d2;
+    padding: 20px;
+}
+
+.flex-div2 span{
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+
+.blue{
+    color: #001eff;
+    font-weight: bold;
+}
+
+.flex-div2 button{
+    background-color: #4e9dd3;
+    border: none;
+    padding: 6px 6px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.flex-div2 button:hover{
+    background-color: #36759f;
+}
+
+.outside button{
+    background-color: #4e9dd3;
+    border: none;
+    padding: 10px 8px;
+    display: block;
+    margin: 20px auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.outside button:hover{
+    background-color: #36759f;
+}
+
+date{
+    display: block;
+    color: #252e36;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: #252e36;

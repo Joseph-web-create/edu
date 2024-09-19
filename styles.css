@@ -228,6 +228,7 @@ nav ul > li a:hover{
 
 .last-div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     gap: 10px;
@@ -250,6 +251,10 @@ nav ul > li a:hover{
 
 .first-flex img{
     max-width: 150px;
+}
+
+.first-flex > div > h4{
+    margin: 0;
 }
 
 .last-flex-div,.last-flex-2div h2{
